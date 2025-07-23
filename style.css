@@ -1,0 +1,39 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1525px;
+  height: 925px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 925px;
+  background-image: url(./img/screenshot-2025-07-18-at-9-31-10-AM-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .screenshot {
+  position: absolute;
+  width: 1525px;
+  height: 925px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 1525px;
+  height: 894px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
